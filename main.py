@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 # -----------------------------------------------------------------------------
 x = np.arange(-10, 10.01, 0.01)
 
-
 # plt.plot(x, x**2)
 
 # -----------------------------------------------------------------------------
@@ -17,12 +16,12 @@ x = np.arange(-10, 10.01, 0.01)
 # plt.title(r'$f_1(x)=\sin(x),\ f_2(x)=\cos(x),\ f_3(x)=-x$')
 # plt.grid(True)
 
-def testing():
-    """
-    test function
-    :return: None
-    """
-    pass
+# def testing():
+#     """
+#     test function
+#     :return: None
+#     """
+#     pass
 
 
 # _____________________________________________________________________________
@@ -40,7 +39,7 @@ def testing():
 # plt.savefig('legend.png')
 
 # -----------------------------------------------------------------------------
-# subplot несколько графиков в одном графическом окне
+# subplot несколько графиков в одном графическом окне (Subplot.png)
 # -----------------------------------------------------------------------------
 t = np.arange(-10, 11, 1)
 # subplot 1
@@ -71,7 +70,7 @@ sp.spines['left'].set_position('center')
 sp.spines['bottom'].set_position('center')
 plt.title(r'$x$')
 
-testing()
+# testing()
 
 plt.savefig('Subplot.png')
 plt.show()
